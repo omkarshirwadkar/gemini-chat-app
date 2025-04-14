@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;gemini-chat-app&apos;" deleteContents="false" description="Delete resource &apos;gemini-chat-app&apos;" element1="/gemini-chat-app" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1744652117034"/>
+</session>
