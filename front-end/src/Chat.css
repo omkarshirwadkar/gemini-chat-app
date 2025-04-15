@@ -1,0 +1,109 @@
+/* Rename this file to Chat.css if you haven't already */
+.cute-chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif; /* A cute, rounded font */
+    background-color: #fdecf9; /* Soft, pastel pink */
+  }
+  
+  .cute-chat-header {
+    padding: 1.2rem;
+    background-color: #ffb6c1; /* Light coral */
+    color: #fff;
+    font-size: 1.3rem;
+    text-align: center;
+    border-bottom: 2px solid #f48fb1; /* Slightly darker pink */
+  }
+  
+  .cute-chat-body {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1.5rem;
+    background-color: #fff0f5; /* Lavender blush */
+  }
+  
+  .cute-message-container {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: flex-start; /* Align items to the start for a cleaner look */
+  }
+  
+  .cute-message-container.cute-user {
+    justify-content: flex-end;
+  }
+  
+  .cute-message-container.cute-ai {
+    justify-content: flex-start;
+  }
+  
+  .cute-message-bubble {
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem; /* More rounded bubbles */
+    max-width: 80%;
+    white-space: pre-wrap;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Soft shadow */
+  }
+  
+  .cute-message-container.cute-user .cute-message-bubble {
+    background-color: #a78bfa; /* Soft purple */
+    color: #fff;
+  }
+  
+  .cute-message-container.cute-ai .cute-message-bubble {
+    background-color: #e0f2f7; /* Light cyan */
+    color: #2c3e50; /* Darker, friendly text */
+  }
+  
+  .cute-chat-input-area {
+    padding: 1.5rem;
+    border-top: 2px solid #f48fb1;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cute-chat-input {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 1rem; /* Rounded input */
+    border: 1px solid #f48fb1;
+    resize: none;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    margin-right: 1rem;
+  }
+  
+  .cute-chat-input:focus {
+    outline: none;
+    border-color: #d8b4fe; /* Lighter purple on focus */
+    box-shadow: 0 0 0 0.2rem rgba(163, 128, 250, 0.25); /* Subtle focus shadow */
+  }
+  
+  .cute-chat-input:disabled {
+    cursor: not-allowed;
+    background-color: #ffe4e6; /* Light pink when disabled */
+    border-color: #f8bbd0;
+  }
+  
+  .cute-send-button {
+    background-color: #f48fb1; /* Medium pink */
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem; /* Rounded button */
+    border: none;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .cute-send-button:hover {
+    background-color: #e91e63; /* Hot pink on hover */
+  }
+  
+  .cute-send-button:disabled {
+    background-color: #f8bbd0;
+    cursor: not-allowed;
+  }
